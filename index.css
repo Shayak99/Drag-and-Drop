@@ -1,13 +1,13 @@
 #grid-container{
     display: flex;
     margin-top: 5%;
+    margin-left: 30%;
     flex-direction: row;
     float: center;
+    width: 40vw;
 }
 div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
     padding: 15px;
     border: 2px solid black;
+    grid-gap: 1px;
 }
